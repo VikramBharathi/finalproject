@@ -1,0 +1,33 @@
+
+body{
+    min-height: 100vh;
+    width:80%;
+    display:grid;
+    background-color: yellow;
+    overflow-wrap: break-word;
+}
+span{
+    color: blue;
+}
+input[type="text"]{
+    border: none;
+    background-color: yellow;
+}
+.form-control{
+    border: none;
+    background-color: yellow !important;
+    box-shadow: none !important;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.mt{
+    margin-top: 50%;
+}
+.min-vh-50{
+    min-height: 50vh;
+}

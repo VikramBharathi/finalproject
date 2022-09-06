@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="poject.css">
+    <title>firstpage</title>
+</head>
+<body class="p-2 me-0">
+                                <!-- 1st page -->
+
+<div class="row">
+    <div class="conatiner min-vh-50 text-start col-12"style="padding-top:50vh">
+        <p> <span>''</span> <b>Okay</b>,_________,<b>Let's see what You're made of...</b></p> <br>
+        <button  class="btn btn-primary ms-3"><a  href="#2">Give me all you've got</a></button>
+    </div>
+</div>
+
+
+                               <!-- 2nd page -->
+<div class="row mt-5">
+<div id="2" class="container min-vh-50 col-12"style="padding-top:50vh">
+                                   
+     <span>1-></span> <b class="ps-3">what's your name,challenger?*</b> 
+    <small class="ps-0"><div class="text-muted ms-5">just your first one is fine.Or a nickname.</div></small> 
+         <div class="form-group mt-3">
+        <input type="text"id="myname" class="form-control pb-0 ps-5" placeholder="type your name & press ok...">
+         <hr class="ms-5 mt-2">
+      <button class="btn btn-primary ms-5" onclick="myname()"><a  href="#3">ok</a></button>
+         </div>
+         </div>
+         </div>
+        </div>
+        
+        <!-- 3rd page -->
+        <div class="row mt-5">
+            <div id="3" class="container  min-vh-50 col-12"style="padding-top:50vh">
+                 
+                    <p class="col-12"><span>2-></span>Which famous con-artist's life is this film <b>Catch Me if you Can</b>based on?</p> 
+                    <div class="card ms-4" style="width: 18rem;">
+                        <img src="https://i.pinimg.com/originals/cd/34/52/cd34522da92c2bbf485292e9732db561.jpg" class="card-img-top" alt="img">
+                 </div>
+                 <div class="container m-0 text-light">
+                    <button class="col-12 m-2 ms-0 col-md-4" style="border:none"><input type="radio" name="question3" >Gregor MacGregor </button>
+                    <button class="col-12 m-2 ms-0 col-md-4"style="border:none"> <input type="radio" name="question3">Charles Ponzi </button>
+                   <button class="col-12 m-2 ms-0 col-md-4"style="border:none"> <input type="radio" name="question3">Bernard Madoff</button>
+                    <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question3"id="correct3">Frank Abagnale</button><br>
+                    </div>
+                    <button class="btn btn-primary ms-4"><a  href="#4">ok</a></button>
+           
+        </div>
+        <!-- 4th page  -->
+        <div class="row mt-5">
+            <div id="4" class="container  min-vh-50 col-12  "style="padding-top:50vh">
+                    <span>4></span> <b class="ps-3">How many stars does the US flag have?</b> 
+                <div class="form-group mt-3">
+                    <input type="text" id="stars" onkeyup="val(this)" class="form-control pb-0 ps-5" placeholder="Type your answer here...">
+                    <hr class="ms-5 mt-2">
+                    <button class="btn btn-primary ms-5"><a  href="#5">ok</a></button>
+                   </div>
+            </div>
+        <!-- 5th page -->
+        
+            <div id="5" class="container mt-3 min-vh-50  mt-5"style="padding-top:50vh">
+                <span>5-></span> <b class="ps-3">Which of these is the <b>Albanian</b>flag?</b>
+                <div class="row row-cols-1 mt-5 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-3 ">
+                    <div class="col">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/243px-Flag_of_Andorra.svg.png" class="card-img-top img-fluid" style="width: 18rem;height: 12.7rem;" alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question" >&nbsp;&nbsp;A </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/227px-Flag_of_San_Marino.svg.png" class="card-img-top img-fluid" style="width: 18rem ;height: 12.7rem; "  alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question" >&nbsp;&nbsp;B</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6spSdOTnl_dLU-CjsU_gWmfYmCqQ9Ctf1SQ&usqp=CAU" class="card-img-top img-fluid" style="width: 18rem;height:12.7rem;" alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question" id="correct5">&nbsp;&nbsp;C </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="data:image/png;base64,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" class="card-img-top img-fluid" style="width: 18rem;height: 12.7rem;" alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question" >&nbsp;&nbsp;D </button>
+                        </div>
+                    </div>    
+                </div>
+                <button class="btn btn-primary ms-3"><a href="#6">ok</a></button>
+               
+
+            <!-- 6th page -->
+            <div class="row mt-5">
+                <div id="6" class="container  min-vh-50 col-12"style="padding-top:50vh">
+                        <span>6-></span> <b class="ps-3">How many hearts does an <b>Octopus</b> have?</b> <br>
+                       <div class="image2 ms-5">
+                        <table>
+                            <tr>
+                                <td><img  src="heart.svg" alt=".."style="width: 50px;"></td>
+                                <td><img src="heart.svg" alt=".."style="width: 50px;"></td>
+                                <td> <img src="heart.svg" alt=".."style="width: 50px;" ></td>
+                                <td> <img src="heart.svg" alt=".."style="width: 50px;" ></td>
+                                <td><img src="heart.svg" alt=".."style="width: 50px;"></td>
+                                <td><img src="heart.svg" alt=".."style="width: 50px;"></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td><input type="radio" name="question4" >1</td>
+                                <td><input type="radio" name="question4" >2</td>
+                                <td><input type="radio" name="question4"id="correct6" >3</td>
+                                <td><input type="radio" name="question4" >4</td>
+                                <td><input type="radio" name="question4" >5</td>
+                                <td><input type="radio" name="question4" >6</td>
+                            </tr>
+                        </table>
+                       
+                       </div>
+                </div>
+            </div>
+
+            
+
+
+            <!-- 7th page -->
+            <div class="container mt-3 min-vh-50  mt-5"style="padding-top:50vh" id="7">
+                <span>7-></span> <b class="ps-3">Which of these is the <b>Argentina</b>flag?</b>
+                <div class="row row-cols-1 mt-5 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-3 ">
+                    <div class="col">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACGCAMAAACv1DWwAAAAMFBMVEX////VKx4AOKXWLiLv7++dMWfJz+UYNqTfKgoAOKcGO6bh4eH08/G/xdsWOabgLRBiVHJ7AAAA1ElEQVR4nO3ax20DARAEwaV4lDm6/LNVEgJUWHRFMP2fuR8r3OeYFY5CMIVoCtEUoilEU4imEE0hmkI0hWgK0RSiKURTiKYQTSGaQjSFaArRFKJZFPL47wl/4zHPzxWe8/pa4TXnzwrnnB8rFKIpRFOIphBNIZpCNIVoCtEUoilEU4imEE0hmkI0hWgK0RSiKURTiKYQzbnn+XBbYt7fK7znelnhWgimEE0hmkI0hWgK0RSiKURTiKYQTSGaQjSFaArRFKIpRFOIphBNIZpCNJtClvgF3lSNlYFGjx4AAAAASUVORK5CYII=" class="card-img-top img-fluid" style="width: 18rem;height: 12.7rem;" alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question2" >&nbsp;&nbsp;A </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAflBMVEX///+8AC23AAC7ACe7ACm4ABW5ABu4ABC6ACO5ABm7ACi4ABO6ACL46u3sx83NYXG3AAfnvcL14OTiqLH78fPKVGbEOE/9+PnGQFbjrbX35OjnuL/x09jsxszpv8XfoarSc4HXhZHAHj3CK0bbkJvQanm/DzbUeYbemqS/FjiKuKh1AAADpUlEQVR4nO3diXaiMBSA4QJCUFxwQ63WurTavv8LDtSZozZxipiQE/p/D+Dh3hOTS8jy9AQAAAAAAAAAAAAAAAAAAAqT3uplPRwO1y+r3sT2w1g3679usiBMRRIWEpGGQbZ57f/WzMz6272fRN1Oy7vU6nSjxN9v+zPbD1i74aAtutfZuMpMV7QHS9sPWafVMUnim/n4Jw6Tzcr2o9ZkPfe7PybkpOtna9uPW4PlTgQlM1IIxK7pf6H+TtzuRNRaYte3/dgG9ab+vRn5yoo/7dl+dFM+xM8dq1qcfth+eCN6WVIxI4Uka2BTWST3dK2yQCxsh6DbMX0oI4V0YzsIrWbz9sMp8bx21qB6v/dZtkj7v/izMZ3KKHqsKzkLopHtYPQYJVWKErWWaERSRqG+lORJCRuQlF6kMyV5UiLn+5SZ19GaEi//PddHn6xqOX9bnNkO6jHvkfaUeF70bjusRywer15V0rHtwKp79o2kxPP8Z9uhVbbXVat9F+xth1bVW2goJZ4XvtkOrhpj/5yC72bpNjf1zykEc9vhVbEUBlPiecLF6XxPb03/XetgO8D7jc11sCehe0VKbLaZ5A0lth3ivRamm0neUFybtN6ZbiZ5Q9nZDvI+fTMvOtdSt76ZDvRPEcjige0w7zGpo5nkDcWlNV5jHZ9zftZ2aTg2WtafuVTgT0y+/V3y3fnzLM0XJyehOy8973WMOoXYnZlZw69/Zy3PdqhlPdczEhdSVyZma+tOHOpQtnpWVpTR3doOtqRpPdVJIZ7aDrakQ11drEOzbXVVbAXfdrDl1DjsODPwrMxO2F8TbuzcWNc3FOeDsRv7Nhb1TBSctN2YlK1p8uRvTtyYQhmbWIdzS0ROyEmDckJ/ImHckVGfyKhjZbzvKPBeLGP+RMY8m4z5WBnz9jK+7yjwHVDG92IZ6wpkrD9RYJ2SjPVsMtY9KrA+VsY6agXW28vYl6HA/h0Z+7wUDM+2OTPDdsnwvtHUnVedC+wvlpndh+7MZNI1zitQ4FwLGeefKJg6J8e5CvbSxsh5ShvbYT2Gc7dks4PufrZzcP18Ns7xU+G8RwWt54ImjUgJ58cqcc6wAudRq+g4t/xoOwjdlnddHSILnDx87Afcg6DywH0Zopn3ZTxxr4oa9++ocE+TCvd5qayOYbl7345u7LrQ5Ot+wNtH33d+3f2AJ8U9kuLmPZIvzarjy7t13+hvzccZ99ICAAAAAAAAAAAAAAAAACD7A+PaSTdtOrdEAAAAAElFTkSuQmCC" class="card-img-top img-fluid" style="width: 18rem ;height: 12.7rem; "  alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question2" >&nbsp;&nbsp;B </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACFCAMAAAApQEceAAAAG1BMVEX////OESfv7+/KAADrsLTNFSnhpqrw9vbh4eFDOH2UAAAAwUlEQVR4nO3PiQ3DMBDAMNdtnv0n7hIBQhzECaR1fEY41tsFT2lE04imEU0jmkY0jWga0TSiaUTTiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0cwZ+Q6xzt8I57rWCNfabyc8YzeCaUTTiKYRTSOaRjSNaBrRNKJpRNOIphFNI5pGNI1oGtE0omlE04imEU0jmkY0jWga0TSiaUTTiKYRTSOaRjSNaAaN3HuE+w9BtTr35f/0PQAAAABJRU5ErkJggg==" class="card-img-top img-fluid" style="width: 18rem;height:12.7rem;" alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question2" >&nbsp;&nbsp;C </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="data:image/png;base64,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" class="card-img-top img-fluid" style="width: 18rem;height: 12.7rem;" alt="img">
+                        <div class="container m-0 text-light">
+                            <button class="col-12 m-2 ms-0 col-md-4"style="border:none"><input type="radio" name="question2" id="correct7">&nbsp;&nbsp; D </button>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="result()" class="btn btn-primary ms-3"><a>What's my score</a></button>
+           
+            
+            
+              <!-- 8thpage -->
+              <div class="row text-center text-dark mt-5">
+                <div id="8"  class="container image mb-5  col-12"style="padding-top:20vh">
+                       <span>you got </span> <span id="result1">____</span> <span>answers correctly,<span id="result2"></span>.</span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+                <script>
+
+  
+function myname(){
+  var my=  document.getElementById("myname");
+  var name1=(my.value);
+  document.getElementById("result2").innerHTML= "<b>"+name1+"</b>";
+ 
+}
+
+
+
+
+function result(){
+    var score = 0;
+    if( document.getElementById("correct3").checked){
+    score++;
+   }
+   if(document.getElementById("stars").value==50){
+    score++;
+   }
+   if( document.getElementById("correct5").checked){
+    score++;
+   }
+   if( document.getElementById("correct7").checked){
+    score++;
+   }
+   if( document.getElementById("correct6").checked){
+    score++;
+   }
+   if(score<3){
+     var x = document.createElement("img");
+     x.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6efVgg9jaJkskiCtG5ZAOle5gOhC6C0_7xA&usqp=CAU");
+     x.setAttribute("width","100%");
+     x.setAttribute("height","100%");
+     x.setAttribute("alt","image");
+     document.body.appendChild(x);
+  }
+   if(score>3){
+     var x = document.createElement("img");
+     x.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmcHaMDRha_BKN4Z3McCKDJsTgrSgc0-PyCQ&usqp=CAU");
+     x.setAttribute("width","100%");
+     x.setAttribute("height","100%");
+     x.setAttribute("alt","image");
+     document.body.appendChild(x);
+  }
+
+const sco = +score;
+document.getElementById("result1").innerHTML=sco;
+
+  }
+
+</script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
